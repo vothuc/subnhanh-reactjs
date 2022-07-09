@@ -1,0 +1,47 @@
+.box .box-container {
+  position: relative;
+  background: none;
+  padding: .5rem;
+  text-align: center;
+}
+
+.box .box-container .image {
+  margin: 0;
+  padding: 0;
+}
+
+.box .box-container .image img {
+  height: 22rem;
+  width: 14rem;
+  border-radius: 10px;
+}
+
+.box .box-container .content .film-link {
+  font-size: 1.6rem;
+  margin-top: 15px;
+  padding: 10px 0;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.box .box-container .content .film-link:hover {
+  cursor: pointer;
+}
+
+.box .box-container .content .price {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.box .box-container .content .price span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.box .box-container .content .price span:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+/*# sourceMappingURL=box.css.map */

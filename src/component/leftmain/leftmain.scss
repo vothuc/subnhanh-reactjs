@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+.leftmain{
+    flex-grow: 2;
+    max-width: 75%;
+    padding: 0;
+
+    .haveBtn{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        .on{
+            background-color: var(--white);
+            color: var(--black);
+            width: 110px;
+        }
+
+        .off{
+            background-color: black;
+            color: rgba(255, 255, 255, 0.5);
+            width: 110px;
+            &:hover{
+                color: var(--white);
+            }
+        }
+    }
+}

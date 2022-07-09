@@ -1,0 +1,58 @@
+.footer {
+  background-color: var(--black-bg);
+  background-image: url(../../img/footer-background.jpg);
+  background-size: cover;
+  height: 40rem;
+  text-align: center;
+}
+
+.footer .box {
+  padding: 2rem;
+  gap: 0 1.5rem;
+}
+
+.footer .box p {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box a {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box a:hover {
+  color: var(--green);
+}
+
+.footer .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footer .bottom {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.footer .bottom .share {
+  margin: 1.5rem 0;
+}
+
+.footer .bottom .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+  margin: 0 .3rem;
+  color: var(--white);
+  background: var(--green);
+}
+
+.footer .bottom .share a:hover {
+  background: var(--black);
+}
+/*# sourceMappingURL=footer.css.map */

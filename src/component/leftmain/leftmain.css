@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  font-family: Nunito,sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5 rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--green);
+}
+
+:root {
+  --bg:#081b27;
+  --span:#a21d0a;
+  --white:#fff;
+  --black:#374550;
+  --black-bg:#0c2738;
+  --green:#27ae60;
+  --light-color:#899ead;
+  --light-bg:#f7f7f7;
+  --blue38:#3898ec;
+  --boder:1rem solid rgba(0,0,0,.2);
+  --yellowf1: #f1b722;
+  --box-shadow:0 1rem 1rem rgba(0,0,0,.05);
+}
+
+.Btn {
+  display: inline-block;
+  margin-left: 1.5rem;
+  padding: 1.2rem 2.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--white);
+  background: var(--green);
+  border-radius: 2.4rem;
+}
+
+.heading {
+  color: var(--yellowf1);
+  padding-top: 3rem;
+  font-size: 30px;
+}
+
+.leftmain {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  max-width: 75%;
+  padding: 0;
+}
+
+.leftmain .haveBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.leftmain .haveBtn .on {
+  background-color: var(--white);
+  color: var(--black);
+  width: 110px;
+}
+
+.leftmain .haveBtn .off {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+  width: 110px;
+}
+
+.leftmain .haveBtn .off:hover {
+  color: var(--white);
+}
+
+.leftmain .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(18rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+  padding-top: 2.5rem;
+}
+
+.leftmain .container .box {
+  position: relative;
+  background: none;
+  padding: .5rem;
+  text-align: center;
+}
+
+.leftmain .container .box .image {
+  margin: 0;
+  padding: 0;
+}
+
+.leftmain .container .box .image img {
+  height: 22rem;
+  width: 14rem;
+  border-radius: 10px;
+}
+
+.leftmain .container .box .content .film-link {
+  font-size: 1.6rem;
+  margin-top: 15px;
+  padding: 10px 0;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.leftmain .container .box .content .film-link:hover {
+  cursor: pointer;
+}
+
+.leftmain .container .box .content .price {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.leftmain .container .box .content .price span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.leftmain .container .box .content .price span:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+/*# sourceMappingURL=leftmain.css.map */

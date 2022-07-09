@@ -1,0 +1,60 @@
+.footer{ 
+    background-color: var(--black-bg);
+    background-image: url(../../img/footer-background.jpg);
+    background-size: cover;
+    height: 40rem;
+    text-align: center;
+    display: block;
+    .box{
+        // display: flex;
+        padding: 2rem;
+        gap: 0 1.5rem;
+
+  
+        p{
+          font-size: 1.4rem;
+          color:var(--light-color);
+          padding:1rem 0;
+        }
+  
+        a{
+          display: block;
+          font-size: 1.4rem;
+          color:var(--light-color);
+          padding:1rem 0;
+  
+          &:hover{
+            color:var(--green);
+  
+            i{
+              padding-right: 2rem;
+            }
+          }
+  
+        }
+    }
+
+    .bottom{
+        padding-top: 1rem;
+        text-align: center;
+    
+        .share{
+          margin:1.5rem 0;
+    
+          a{
+            height:4.5rem;
+            width:4.5rem;
+            line-height:4.5rem;
+            font-size:2rem;
+            border-radius: .5rem;
+            margin:0 .3rem;
+            color:var(--white);
+            background: var(--green);
+    
+            &:hover{
+              background: var(--black);
+            }
+          }
+        }
+    }
+}

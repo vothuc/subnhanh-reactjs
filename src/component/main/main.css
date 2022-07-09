@@ -1,0 +1,9 @@
+.main {
+  background-color: var(--bg);
+  padding: 1rem 9%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
